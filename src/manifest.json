@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "mirror-video",
+  "description": "Make video output a mirror image",
+  "version": "1.0",
+
+  "permissions": ["activeTab", "tabs"],
+
+  "background": {
+    "scripts": ["mirrorVideo.js"]
+  },
+
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Mirror Video",
+    "default_icon": "icons/mirror.svg"
+  }
+}
