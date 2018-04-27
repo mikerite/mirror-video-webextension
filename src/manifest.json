@@ -4,7 +4,7 @@
   "description": "Make video output a mirror image",
   "version": "1.0",
 
-  "permissions": ["activeTab", "tabs"],
+  "permissions": ["activeTab"],
 
   "background": {
     "scripts": ["mirrorVideo.js"]
